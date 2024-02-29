@@ -2,7 +2,7 @@
 import { LightningElement, track } from 'lwc';
 
 const API_URL = "https://api.openai.com/v1/chat/completions";
-const API_KEY = "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"; // Update with your API key
+const API_KEY = "<your api key>"; // Update with your API key
 
 export default class WebStreamsDemo extends LightningElement {
     promptInput;
