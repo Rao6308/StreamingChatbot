@@ -1,0 +1,17 @@
+<!-- chatCompletions.html -->
+<template>
+	<div>
+		<h1>
+			Streaming OpenAI API Completions in JavaScript 2
+		</h1>
+		<div>
+			<p>Generated Text</p>
+			<span style="white-space: pre-line" class="resultText"></span>
+		</div>
+		<lightning-input type="text" class="promptInput" placeholder="Enter prompt..."></lightning-input>
+		<div>
+			<lightning-button label="Generate" variant= "brand" onclick={handleGenerate} ></lightning-button>
+			<lightning-button label="Stop" variant= "Neutral" onclick={handleStop} ></lightning-button>
+		</div>
+	</div>
+</template>
